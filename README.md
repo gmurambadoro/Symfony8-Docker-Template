@@ -1,6 +1,6 @@
-# Symfony7 Docker Template
+# Symfony8 Docker Template
 
-🚀 **Quickly set up your Symfony 7 application with Docker!**
+🚀 **Quickly set up your Symfony 8 application with Docker!**
 
 This starter template simplifies the process of building a Symfony application using Docker, allowing you to get up and
 running without needing to install PHP locally. Follow the step-by-step
@@ -8,7 +8,7 @@ tutorial [here](https://kumoitech.xyz/blog/how-to-start-a-symfony-7-application-
 
 ## Features
 
-- Pre-configured Symfony 7 application
+- Pre-configured Symfony 8 application
 - Easy configuration through a customizable `docker.env` file.
 - Pre-defined scripts for building and connecting to your Docker containers.
 - Seamless integration with [phpMyAdmin](https://www.phpmyadmin.net/) for database management.
@@ -25,7 +25,7 @@ tutorial [here](https://kumoitech.xyz/blog/how-to-start-a-symfony-7-application-
 
     ```shell
     # Container name for the app service in docker-compose.yaml, must be unique for all containers running on your docker instance
-    DC_APP_NAME=Symfony7
+    DC_APP_NAME=Symfony8
     # Forwarded port for the Symfony7 app service
     DC_APP_PORT=8880
     # Forwarded port for phpMyAdmin service to view the underlying application database
